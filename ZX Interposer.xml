@@ -1,0 +1,937 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>E:\Kicad\Interposer\ZX Interposer.kicad_sch</source>
+    <date>2025-12-24T17:36:53+0000</date>
+    <tool>Eeschema 9.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>ZX Spectrum Interposer for Logic Analyser PCB's</title>
+        <company>Liveboxandy</company>
+        <rev>1.0</rev>
+        <date>2025-12-24</date>
+        <source>ZX Interposer.kicad_sch</source>
+        <comment number="1" value="Complete rebuild to allow manual selection of any signal to any channel using patch cables."/>
+        <comment number="2" value="All 48 logic analyser channels and 46 signals (including NCA28-Not Used) available."/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="D1">
+      <value>1N5820</value>
+      <footprint>Diode_THT:D_DO-201AD_P15.24mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/88526/1n5820.pdf</datasheet>
+      <description>20V 3A Schottky Barrier Rectifier Diode, DO-201AD</description>
+      <fields>
+        <field name="Footprint">Diode_THT:D_DO-201AD_P15.24mm_Horizontal</field>
+        <field name="Datasheet">http://www.vishay.com/docs/88526/1n5820.pdf</field>
+        <field name="Description">20V 3A Schottky Barrier Rectifier Diode, DO-201AD</field>
+      </fields>
+      <libsource lib="Diode" part="1N5820" description="20V 3A Schottky Barrier Rectifier Diode, DO-201AD"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="ZX Interposer.kicad_sch"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <property name="ki_fp_filters" value="D*DO?201AD*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>91ddce54-08ea-4ba8-9d32-250e58e249f9</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>SSQ-116-XX-X-D</value>
+      <footprint>Mods:SAMTEC_SSQ-116-XX-X-D</footprint>
+      <fields>
+        <field name="PARTREV">A</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">8.51 mm</field>
+        <field name="MANUFACTURER">Samtec</field>
+        <field name="Footprint">Mods:SAMTEC_SSQ-116-XX-X-D</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ZXInterface" part="SSQ-116-XX-X-D" description=""/>
+      <property name="PARTREV" value="A"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="8.51 mm"/>
+      <property name="MANUFACTURER" value="Samtec"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="ZX Interposer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>563240fc-70bd-419a-baf8-6e65be5cb46a</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>SSQ-116-XX-X-D</value>
+      <footprint>Mods:SAMTEC_SSQ-116-XX-X-D</footprint>
+      <fields>
+        <field name="PARTREV">A</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">8.51 mm</field>
+        <field name="MANUFACTURER">Samtec</field>
+        <field name="Footprint">Mods:SAMTEC_SSQ-116-XX-X-D</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ZXInterface" part="SSQ-116-XX-X-D" description=""/>
+      <property name="PARTREV" value="A"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="8.51 mm"/>
+      <property name="MANUFACTURER" value="Samtec"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="ZX Interposer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5c6d473d-ee9b-414f-9ac2-b6e26173014f</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>TSW-124-07-L-S</value>
+      <footprint>Mods:SAMTEC_TSW-124-07-L-S</footprint>
+      <fields>
+        <field name="PARTREV">R</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="MANUFACTURER">Samtec Inc.</field>
+        <field name="Footprint">Mods:SAMTEC_TSW-124-07-L-S</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ZXInterface" part="TSW-124-07-L-S" description=""/>
+      <property name="PARTREV" value="R"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="MANUFACTURER" value="Samtec Inc."/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="ZX Interposer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>77777a3f-826f-4eda-b3a2-1f65ab4f20d9</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>TSW-124-07-L-S</value>
+      <footprint>Mods:SAMTEC_TSW-124-07-L-S</footprint>
+      <fields>
+        <field name="PARTREV">R</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="MANUFACTURER">Samtec Inc.</field>
+        <field name="Footprint">Mods:SAMTEC_TSW-124-07-L-S</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ZXInterface" part="TSW-124-07-L-S" description=""/>
+      <property name="PARTREV" value="R"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="MANUFACTURER" value="Samtec Inc."/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="ZX Interposer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0eeb4a4e-42fe-47a4-83a1-a01ae5d41939</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>TSW-124-07-L-S</value>
+      <footprint>Mods:SAMTEC_TSW-124-07-L-S</footprint>
+      <fields>
+        <field name="PARTREV">R</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="MANUFACTURER">Samtec Inc.</field>
+        <field name="Footprint">Mods:SAMTEC_TSW-124-07-L-S</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ZXInterface" part="TSW-124-07-L-S" description=""/>
+      <property name="PARTREV" value="R"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="MANUFACTURER" value="Samtec Inc."/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="ZX Interposer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2a214316-3c05-4629-9c36-863217a60936</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>TSW-124-07-L-S</value>
+      <footprint>Mods:SAMTEC_TSW-124-07-L-S</footprint>
+      <fields>
+        <field name="PARTREV">R</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="MANUFACTURER">Samtec Inc.</field>
+        <field name="Footprint">Mods:SAMTEC_TSW-124-07-L-S</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ZXInterface" part="TSW-124-07-L-S" description=""/>
+      <property name="PARTREV" value="R"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="MANUFACTURER" value="Samtec Inc."/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="ZX Interposer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f3808014-b402-4449-a2fe-4eb0c58637ac</tstamps>
+    </comp>
+    <comp ref="S1">
+      <value>SKHHANA010</value>
+      <footprint>Mods:SKHHANA010</footprint>
+      <description>Tact switch,PCB,SPST,black,0.98N o/force Black Stem Tactile Switch, SPST-NO 50 mA 9.5mm</description>
+      <fields>
+        <field name="Height"/>
+        <field name="Mouser Part Number">688-SKHHAN</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Alps-Alpine/SKHHANA010?qs=seHrhfPpLDzbQApxfd3mfQ%3D%3D</field>
+        <field name="Manufacturer_Name">ALPS Electric</field>
+        <field name="Manufacturer_Part_Number">SKHHANA010</field>
+        <field name="Footprint">Mods:SKHHANA010</field>
+        <field name="Datasheet"/>
+        <field name="Description">Tact switch,PCB,SPST,black,0.98N o/force Black Stem Tactile Switch, SPST-NO 50 mA 9.5mm</field>
+      </fields>
+      <libsource lib="ZXInterface" part="SKHHANA010" description="Tact switch,PCB,SPST,black,0.98N o/force Black Stem Tactile Switch, SPST-NO 50 mA 9.5mm"/>
+      <property name="Height" value=""/>
+      <property name="Mouser Part Number" value="688-SKHHAN"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Alps-Alpine/SKHHANA010?qs=seHrhfPpLDzbQApxfd3mfQ%3D%3D"/>
+      <property name="Manufacturer_Name" value="ALPS Electric"/>
+      <property name="Manufacturer_Part_Number" value="SKHHANA010"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="ZX Interposer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>430baf4c-5d4e-444f-ae3b-6f6246eb3f65</tstamps>
+    </comp>
+    <comp ref="SK1">
+      <value>ZX Spectrum</value>
+      <footprint>Mods:ZX_Spectrum_BUS_Edge_Connector Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Mods:ZX_Spectrum_BUS_Edge_Connector Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ZXInterface" part="expansion_port_2" description=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="ZX Interposer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eaff7f4d-3e58-4dc3-9a0b-6bcc3df79bb9</tstamps>
+    </comp>
+    <comp ref="SK2">
+      <value>ZX Spectrum</value>
+      <footprint>Mods:ZX_Spectrum_BUS_Edge_Connector Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Mods:ZX_Spectrum_BUS_Edge_Connector Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ZXInterface" part="expansion_port_2" description=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="ZX Interposer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>74511346-1ea7-4480-9d09-a3f33940f3df</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Diode" part="1N5820">
+      <description>20V 3A Schottky Barrier Rectifier Diode, DO-201AD</description>
+      <docs>http://www.vishay.com/docs/88526/1n5820.pdf</docs>
+      <footprints>
+        <fp>D*DO?201AD*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N5820</field>
+        <field name="Footprint">Diode_THT:D_DO-201AD_P15.24mm_Horizontal</field>
+        <field name="Datasheet">http://www.vishay.com/docs/88526/1n5820.pdf</field>
+        <field name="Description">20V 3A Schottky Barrier Rectifier Diode, DO-201AD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Mounting Hole without connection</field>
+      </fields>
+    </libpart>
+    <libpart lib="ZXInterface" part="SKHHANA010">
+      <description>Tact switch,PCB,SPST,black,0.98N o/force Black Stem Tactile Switch, SPST-NO 50 mA 9.5mm</description>
+      <fields>
+        <field name="Reference">S</field>
+        <field name="Value">SKHHANA010</field>
+        <field name="Footprint">SKHHANA010</field>
+        <field name="Datasheet"/>
+        <field name="Description">Tact switch,PCB,SPST,black,0.98N o/force Black Stem Tactile Switch, SPST-NO 50 mA 9.5mm</field>
+        <field name="Height"/>
+        <field name="Mouser Part Number">688-SKHHAN</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Alps-Alpine/SKHHANA010?qs=seHrhfPpLDzbQApxfd3mfQ%3D%3D</field>
+        <field name="Manufacturer_Name">ALPS Electric</field>
+        <field name="Manufacturer_Part_Number">SKHHANA010</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ZXInterface" part="SSQ-116-XX-X-D">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">SSQ-116-XX-X-D</field>
+        <field name="Footprint">SSQ-116-XX-X-D:SAMTEC_SSQ-116-XX-X-D</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="PARTREV">A</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">8.51 mm</field>
+        <field name="MANUFACTURER">Samtec</field>
+      </fields>
+      <pins>
+        <pin num="01" name="01" type="passive"/>
+        <pin num="02" name="02" type="passive"/>
+        <pin num="03" name="03" type="passive"/>
+        <pin num="04" name="04" type="passive"/>
+        <pin num="05" name="05" type="passive"/>
+        <pin num="06" name="06" type="passive"/>
+        <pin num="07" name="07" type="passive"/>
+        <pin num="08" name="08" type="passive"/>
+        <pin num="09" name="09" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+        <pin num="11" name="11" type="passive"/>
+        <pin num="12" name="12" type="passive"/>
+        <pin num="13" name="13" type="passive"/>
+        <pin num="14" name="14" type="passive"/>
+        <pin num="15" name="15" type="passive"/>
+        <pin num="16" name="16" type="passive"/>
+        <pin num="17" name="17" type="passive"/>
+        <pin num="18" name="18" type="passive"/>
+        <pin num="19" name="19" type="passive"/>
+        <pin num="20" name="20" type="passive"/>
+        <pin num="21" name="21" type="passive"/>
+        <pin num="22" name="22" type="passive"/>
+        <pin num="23" name="23" type="passive"/>
+        <pin num="24" name="24" type="passive"/>
+        <pin num="25" name="25" type="passive"/>
+        <pin num="26" name="26" type="passive"/>
+        <pin num="27" name="27" type="passive"/>
+        <pin num="28" name="28" type="passive"/>
+        <pin num="29" name="29" type="passive"/>
+        <pin num="30" name="30" type="passive"/>
+        <pin num="31" name="31" type="passive"/>
+        <pin num="32" name="32" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ZXInterface" part="TSW-124-07-L-S">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">TSW-124-07-L-S</field>
+        <field name="Footprint">TSW-124-07-L-S:SAMTEC_TSW-124-07-L-S</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="PARTREV">R</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="MANUFACTURER">Samtec Inc.</field>
+      </fields>
+      <pins>
+        <pin num="01" name="01" type="passive"/>
+        <pin num="02" name="02" type="passive"/>
+        <pin num="03" name="03" type="passive"/>
+        <pin num="04" name="04" type="passive"/>
+        <pin num="05" name="05" type="passive"/>
+        <pin num="06" name="06" type="passive"/>
+        <pin num="07" name="07" type="passive"/>
+        <pin num="08" name="08" type="passive"/>
+        <pin num="09" name="09" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+        <pin num="11" name="11" type="passive"/>
+        <pin num="12" name="12" type="passive"/>
+        <pin num="13" name="13" type="passive"/>
+        <pin num="14" name="14" type="passive"/>
+        <pin num="15" name="15" type="passive"/>
+        <pin num="16" name="16" type="passive"/>
+        <pin num="17" name="17" type="passive"/>
+        <pin num="18" name="18" type="passive"/>
+        <pin num="19" name="19" type="passive"/>
+        <pin num="20" name="20" type="passive"/>
+        <pin num="21" name="21" type="passive"/>
+        <pin num="22" name="22" type="passive"/>
+        <pin num="23" name="23" type="passive"/>
+        <pin num="24" name="24" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ZXInterface" part="expansion_port_2">
+      <fields>
+        <field name="Reference">SK</field>
+        <field name="Value">ZX Spectrum</field>
+        <field name="Footprint">ZX Bits:ZX_MD_Edge_Connector</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="A1" name="A15" type="tri_state"/>
+        <pin num="A2" name="A13" type="tri_state"/>
+        <pin num="A3" name="D7" type="bidirectional"/>
+        <pin num="A4" name="NCA4" type="bidirectional"/>
+        <pin num="A6" name="D0" type="bidirectional"/>
+        <pin num="A7" name="D1" type="bidirectional"/>
+        <pin num="A8" name="D2" type="bidirectional"/>
+        <pin num="A9" name="D6" type="bidirectional"/>
+        <pin num="A10" name="D5" type="bidirectional"/>
+        <pin num="A11" name="D3" type="bidirectional"/>
+        <pin num="A12" name="D4" type="bidirectional"/>
+        <pin num="A13" name="~{INT}" type="input"/>
+        <pin num="A14" name="~{NMI}" type="input"/>
+        <pin num="A15" name="~{HALT}" type="input"/>
+        <pin num="A16" name="~{MREQ}" type="output"/>
+        <pin num="A17" name="~{IORQ}" type="output"/>
+        <pin num="A18" name="~{RD}" type="output"/>
+        <pin num="A19" name="~{WR}" type="output"/>
+        <pin num="A20" name="-5V" type="power_out"/>
+        <pin num="A21" name="~{WAIT}" type="input"/>
+        <pin num="A22" name="+12V" type="power_out"/>
+        <pin num="A23" name="+12VAC" type="power_out"/>
+        <pin num="A24" name="~{M1}" type="output"/>
+        <pin num="A25" name="~{RFSH}" type="input"/>
+        <pin num="A26" name="A8" type="tri_state"/>
+        <pin num="A27" name="A10" type="tri_state"/>
+        <pin num="A28" name="NCA28" type="bidirectional"/>
+        <pin num="B1" name="A14" type="tri_state"/>
+        <pin num="B2" name="A12" type="tri_state"/>
+        <pin num="B3" name="+5v" type="power_out"/>
+        <pin num="B4" name="+9V" type="power_out"/>
+        <pin num="B6" name="GND" type="power_out"/>
+        <pin num="B7" name="GND" type="power_out"/>
+        <pin num="B8" name="CLK" type="output"/>
+        <pin num="B9" name="A0" type="tri_state"/>
+        <pin num="B10" name="A1" type="tri_state"/>
+        <pin num="B11" name="A2" type="tri_state"/>
+        <pin num="B12" name="A3" type="tri_state"/>
+        <pin num="B13" name="~{IORQGE}" type="input"/>
+        <pin num="B14" name="GND" type="power_out"/>
+        <pin num="B15" name="VIDEO" type="input"/>
+        <pin num="B16" name="Y" type="input"/>
+        <pin num="B17" name="V" type="input"/>
+        <pin num="B18" name="U" type="input"/>
+        <pin num="B19" name="~{BUSRQ}" type="passive"/>
+        <pin num="B20" name="~{RESET}" type="passive"/>
+        <pin num="B21" name="A7" type="tri_state"/>
+        <pin num="B22" name="A6" type="tri_state"/>
+        <pin num="B23" name="A5" type="tri_state"/>
+        <pin num="B24" name="A4" type="tri_state"/>
+        <pin num="B25" name="~{ROMCS}" type="input"/>
+        <pin num="B26" name="~{BUSACK}" type="input"/>
+        <pin num="B27" name="A9" type="tri_state"/>
+        <pin num="B28" name="A11" type="tri_state"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Diode">
+      <uri>C:\Program Files\KiCad\9.0\share\kicad\symbols\/Diode.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\9.0\share\kicad\symbols\/Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="ZXInterface">
+      <uri>E:\Kicad\Interposer/Mods/ZXInterface.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/BUSACK" class="Default">
+      <node ref="J4" pin="16" pinfunction="16" pintype="passive"/>
+      <node ref="SK1" pin="B26" pinfunction="~{BUSACK}" pintype="input"/>
+      <node ref="SK2" pin="B26" pinfunction="~{BUSACK}" pintype="input"/>
+    </net>
+    <net code="2" name="/BUSRQ" class="Default">
+      <node ref="J4" pin="15" pinfunction="15" pintype="passive"/>
+      <node ref="SK1" pin="B19" pinfunction="~{BUSRQ}" pintype="passive"/>
+      <node ref="SK2" pin="B19" pinfunction="~{BUSRQ}" pintype="passive"/>
+    </net>
+    <net code="3" name="/HALT" class="Default">
+      <node ref="J4" pin="10" pinfunction="10" pintype="passive"/>
+      <node ref="SK1" pin="A15" pinfunction="~{HALT}" pintype="input"/>
+      <node ref="SK2" pin="A15" pinfunction="~{HALT}" pintype="input"/>
+    </net>
+    <net code="4" name="/INT" class="Default">
+      <node ref="J4" pin="13" pinfunction="13" pintype="passive"/>
+      <node ref="SK1" pin="A13" pinfunction="~{INT}" pintype="input"/>
+      <node ref="SK2" pin="A13" pinfunction="~{INT}" pintype="input"/>
+    </net>
+    <net code="5" name="/IORQ" class="Default">
+      <node ref="J4" pin="07" pinfunction="07" pintype="passive"/>
+      <node ref="SK1" pin="A17" pinfunction="~{IORQ}" pintype="output"/>
+      <node ref="SK2" pin="A17" pinfunction="~{IORQ}" pintype="output"/>
+    </net>
+    <net code="6" name="/IORQGE" class="Default">
+      <node ref="J4" pin="09" pinfunction="09" pintype="passive"/>
+      <node ref="SK1" pin="B13" pinfunction="~{IORQGE}" pintype="input"/>
+      <node ref="SK2" pin="B13" pinfunction="~{IORQGE}" pintype="input"/>
+    </net>
+    <net code="7" name="/M1" class="Default">
+      <node ref="J4" pin="12" pinfunction="12" pintype="passive"/>
+      <node ref="SK1" pin="A24" pinfunction="~{M1}" pintype="output"/>
+      <node ref="SK2" pin="A24" pinfunction="~{M1}" pintype="output"/>
+    </net>
+    <net code="8" name="/MREQ" class="Default">
+      <node ref="J4" pin="06" pinfunction="06" pintype="passive"/>
+      <node ref="SK1" pin="A16" pinfunction="~{MREQ}" pintype="output"/>
+      <node ref="SK2" pin="A16" pinfunction="~{MREQ}" pintype="output"/>
+    </net>
+    <net code="9" name="/NMI" class="Default">
+      <node ref="J4" pin="11" pinfunction="11" pintype="passive"/>
+      <node ref="SK1" pin="A14" pinfunction="~{NMI}" pintype="input"/>
+      <node ref="SK2" pin="A14" pinfunction="~{NMI}" pintype="input"/>
+    </net>
+    <net code="10" name="/RD" class="Default">
+      <node ref="J4" pin="04" pinfunction="04" pintype="passive"/>
+      <node ref="SK1" pin="A18" pinfunction="~{RD}" pintype="output"/>
+      <node ref="SK2" pin="A18" pinfunction="~{RD}" pintype="output"/>
+    </net>
+    <net code="11" name="/RFRSH" class="Default">
+      <node ref="J4" pin="14" pinfunction="14" pintype="passive"/>
+      <node ref="SK1" pin="A25" pinfunction="~{RFSH}" pintype="input"/>
+      <node ref="SK2" pin="A25" pinfunction="~{RFSH}" pintype="input"/>
+    </net>
+    <net code="12" name="/ROMCS" class="Default">
+      <node ref="J4" pin="03" pinfunction="03" pintype="passive"/>
+      <node ref="SK1" pin="B25" pinfunction="~{ROMCS}" pintype="input"/>
+      <node ref="SK2" pin="B25" pinfunction="~{ROMCS}" pintype="input"/>
+    </net>
+    <net code="13" name="/WAIT" class="Default">
+      <node ref="J4" pin="08" pinfunction="08" pintype="passive"/>
+      <node ref="SK1" pin="A21" pinfunction="~{WAIT}" pintype="input"/>
+      <node ref="SK2" pin="A21" pinfunction="~{WAIT}" pintype="input"/>
+    </net>
+    <net code="14" name="/WR" class="Default">
+      <node ref="J4" pin="05" pinfunction="05" pintype="passive"/>
+      <node ref="SK1" pin="A19" pinfunction="~{WR}" pintype="output"/>
+      <node ref="SK2" pin="A19" pinfunction="~{WR}" pintype="output"/>
+    </net>
+    <net code="15" name="A0" class="Default">
+      <node ref="J3" pin="16" pinfunction="16" pintype="passive"/>
+      <node ref="SK1" pin="B9" pinfunction="A0" pintype="tri_state"/>
+      <node ref="SK2" pin="B9" pinfunction="A0" pintype="tri_state"/>
+    </net>
+    <net code="16" name="A1" class="Default">
+      <node ref="J3" pin="15" pinfunction="15" pintype="passive"/>
+      <node ref="SK1" pin="B10" pinfunction="A1" pintype="tri_state"/>
+      <node ref="SK2" pin="B10" pinfunction="A1" pintype="tri_state"/>
+    </net>
+    <net code="17" name="A2" class="Default">
+      <node ref="J3" pin="14" pinfunction="14" pintype="passive"/>
+      <node ref="SK1" pin="B11" pinfunction="A2" pintype="tri_state"/>
+      <node ref="SK2" pin="B11" pinfunction="A2" pintype="tri_state"/>
+    </net>
+    <net code="18" name="A3" class="Default">
+      <node ref="J3" pin="13" pinfunction="13" pintype="passive"/>
+      <node ref="SK1" pin="B12" pinfunction="A3" pintype="tri_state"/>
+      <node ref="SK2" pin="B12" pinfunction="A3" pintype="tri_state"/>
+    </net>
+    <net code="19" name="A4" class="Default">
+      <node ref="J3" pin="12" pinfunction="12" pintype="passive"/>
+      <node ref="SK1" pin="B24" pinfunction="A4" pintype="tri_state"/>
+      <node ref="SK2" pin="B24" pinfunction="A4" pintype="tri_state"/>
+    </net>
+    <net code="20" name="A5" class="Default">
+      <node ref="J3" pin="11" pinfunction="11" pintype="passive"/>
+      <node ref="SK1" pin="B23" pinfunction="A5" pintype="tri_state"/>
+      <node ref="SK2" pin="B23" pinfunction="A5" pintype="tri_state"/>
+    </net>
+    <net code="21" name="A6" class="Default">
+      <node ref="J3" pin="10" pinfunction="10" pintype="passive"/>
+      <node ref="SK1" pin="B22" pinfunction="A6" pintype="tri_state"/>
+      <node ref="SK2" pin="B22" pinfunction="A6" pintype="tri_state"/>
+    </net>
+    <net code="22" name="A7" class="Default">
+      <node ref="J3" pin="09" pinfunction="09" pintype="passive"/>
+      <node ref="SK1" pin="B21" pinfunction="A7" pintype="tri_state"/>
+      <node ref="SK2" pin="B21" pinfunction="A7" pintype="tri_state"/>
+    </net>
+    <net code="23" name="A8" class="Default">
+      <node ref="J3" pin="08" pinfunction="08" pintype="passive"/>
+      <node ref="SK1" pin="A26" pinfunction="A8" pintype="tri_state"/>
+      <node ref="SK2" pin="A26" pinfunction="A8" pintype="tri_state"/>
+    </net>
+    <net code="24" name="A9" class="Default">
+      <node ref="J3" pin="07" pinfunction="07" pintype="passive"/>
+      <node ref="SK1" pin="B27" pinfunction="A9" pintype="tri_state"/>
+      <node ref="SK2" pin="B27" pinfunction="A9" pintype="tri_state"/>
+    </net>
+    <net code="25" name="A10" class="Default">
+      <node ref="J3" pin="06" pinfunction="06" pintype="passive"/>
+      <node ref="SK1" pin="A27" pinfunction="A10" pintype="tri_state"/>
+      <node ref="SK2" pin="A27" pinfunction="A10" pintype="tri_state"/>
+    </net>
+    <net code="26" name="A11" class="Default">
+      <node ref="J3" pin="05" pinfunction="05" pintype="passive"/>
+      <node ref="SK1" pin="B28" pinfunction="A11" pintype="tri_state"/>
+      <node ref="SK2" pin="B28" pinfunction="A11" pintype="tri_state"/>
+    </net>
+    <net code="27" name="A12" class="Default">
+      <node ref="J3" pin="04" pinfunction="04" pintype="passive"/>
+      <node ref="SK1" pin="B2" pinfunction="A12" pintype="tri_state"/>
+      <node ref="SK2" pin="B2" pinfunction="A12" pintype="tri_state"/>
+    </net>
+    <net code="28" name="A13" class="Default">
+      <node ref="J3" pin="03" pinfunction="03" pintype="passive"/>
+      <node ref="SK1" pin="A2" pinfunction="A13" pintype="tri_state"/>
+      <node ref="SK2" pin="A2" pinfunction="A13" pintype="tri_state"/>
+    </net>
+    <net code="29" name="A14" class="Default">
+      <node ref="J3" pin="02" pinfunction="02" pintype="passive"/>
+      <node ref="SK1" pin="B1" pinfunction="A14" pintype="tri_state"/>
+      <node ref="SK2" pin="B1" pinfunction="A14" pintype="tri_state"/>
+    </net>
+    <net code="30" name="A15" class="Default">
+      <node ref="J3" pin="01" pinfunction="01" pintype="passive"/>
+      <node ref="SK1" pin="A1" pinfunction="A15" pintype="tri_state"/>
+      <node ref="SK2" pin="A1" pinfunction="A15" pintype="tri_state"/>
+    </net>
+    <net code="31" name="CLOCK" class="Default">
+      <node ref="J4" pin="02" pinfunction="02" pintype="passive"/>
+      <node ref="SK1" pin="B8" pinfunction="CLK" pintype="output"/>
+      <node ref="SK2" pin="B8" pinfunction="CLK" pintype="output"/>
+    </net>
+    <net code="32" name="D0" class="Default">
+      <node ref="J3" pin="24" pinfunction="24" pintype="passive"/>
+      <node ref="SK1" pin="A6" pinfunction="D0" pintype="bidirectional"/>
+      <node ref="SK2" pin="A6" pinfunction="D0" pintype="bidirectional"/>
+    </net>
+    <net code="33" name="D1" class="Default">
+      <node ref="J3" pin="23" pinfunction="23" pintype="passive"/>
+      <node ref="SK1" pin="A7" pinfunction="D1" pintype="bidirectional"/>
+      <node ref="SK2" pin="A7" pinfunction="D1" pintype="bidirectional"/>
+    </net>
+    <net code="34" name="D2" class="Default">
+      <node ref="J3" pin="22" pinfunction="22" pintype="passive"/>
+      <node ref="SK1" pin="A8" pinfunction="D2" pintype="bidirectional"/>
+      <node ref="SK2" pin="A8" pinfunction="D2" pintype="bidirectional"/>
+    </net>
+    <net code="35" name="D3" class="Default">
+      <node ref="J3" pin="21" pinfunction="21" pintype="passive"/>
+      <node ref="SK1" pin="A11" pinfunction="D3" pintype="bidirectional"/>
+      <node ref="SK2" pin="A11" pinfunction="D3" pintype="bidirectional"/>
+    </net>
+    <net code="36" name="D4" class="Default">
+      <node ref="J3" pin="20" pinfunction="20" pintype="passive"/>
+      <node ref="SK1" pin="A12" pinfunction="D4" pintype="bidirectional"/>
+      <node ref="SK2" pin="A12" pinfunction="D4" pintype="bidirectional"/>
+    </net>
+    <net code="37" name="D5" class="Default">
+      <node ref="J3" pin="19" pinfunction="19" pintype="passive"/>
+      <node ref="SK1" pin="A10" pinfunction="D5" pintype="bidirectional"/>
+      <node ref="SK2" pin="A10" pinfunction="D5" pintype="bidirectional"/>
+    </net>
+    <net code="38" name="D6" class="Default">
+      <node ref="J3" pin="18" pinfunction="18" pintype="passive"/>
+      <node ref="SK1" pin="A9" pinfunction="D6" pintype="bidirectional"/>
+      <node ref="SK2" pin="A9" pinfunction="D6" pintype="bidirectional"/>
+    </net>
+    <net code="39" name="D7" class="Default">
+      <node ref="J3" pin="17" pinfunction="17" pintype="passive"/>
+      <node ref="SK1" pin="A3" pinfunction="D7" pintype="bidirectional"/>
+      <node ref="SK2" pin="A3" pinfunction="D7" pintype="bidirectional"/>
+    </net>
+    <net code="40" name="DIN1" class="Default">
+      <node ref="J1" pin="31" pinfunction="31" pintype="passive"/>
+      <node ref="J5" pin="01" pinfunction="01" pintype="passive"/>
+    </net>
+    <net code="41" name="DIN2" class="Default">
+      <node ref="J1" pin="29" pinfunction="29" pintype="passive"/>
+      <node ref="J5" pin="03" pinfunction="03" pintype="passive"/>
+    </net>
+    <net code="42" name="DIN3" class="Default">
+      <node ref="J1" pin="27" pinfunction="27" pintype="passive"/>
+      <node ref="J5" pin="05" pinfunction="05" pintype="passive"/>
+    </net>
+    <net code="43" name="DIN4" class="Default">
+      <node ref="J1" pin="25" pinfunction="25" pintype="passive"/>
+      <node ref="J5" pin="07" pinfunction="07" pintype="passive"/>
+    </net>
+    <net code="44" name="DIN5" class="Default">
+      <node ref="J1" pin="23" pinfunction="23" pintype="passive"/>
+      <node ref="J5" pin="09" pinfunction="09" pintype="passive"/>
+    </net>
+    <net code="45" name="DIN6" class="Default">
+      <node ref="J1" pin="21" pinfunction="21" pintype="passive"/>
+      <node ref="J5" pin="11" pinfunction="11" pintype="passive"/>
+    </net>
+    <net code="46" name="DIN7" class="Default">
+      <node ref="J1" pin="19" pinfunction="19" pintype="passive"/>
+      <node ref="J5" pin="13" pinfunction="13" pintype="passive"/>
+    </net>
+    <net code="47" name="DIN8" class="Default">
+      <node ref="J1" pin="17" pinfunction="17" pintype="passive"/>
+      <node ref="J5" pin="15" pinfunction="15" pintype="passive"/>
+    </net>
+    <net code="48" name="DIN9" class="Default">
+      <node ref="J1" pin="15" pinfunction="15" pintype="passive"/>
+      <node ref="J5" pin="17" pinfunction="17" pintype="passive"/>
+    </net>
+    <net code="49" name="DIN10" class="Default">
+      <node ref="J1" pin="13" pinfunction="13" pintype="passive"/>
+      <node ref="J5" pin="19" pinfunction="19" pintype="passive"/>
+    </net>
+    <net code="50" name="DIN11" class="Default">
+      <node ref="J1" pin="11" pinfunction="11" pintype="passive"/>
+      <node ref="J5" pin="21" pinfunction="21" pintype="passive"/>
+    </net>
+    <net code="51" name="DIN12" class="Default">
+      <node ref="J1" pin="09" pinfunction="09" pintype="passive"/>
+      <node ref="J5" pin="23" pinfunction="23" pintype="passive"/>
+    </net>
+    <net code="52" name="DIN13" class="Default">
+      <node ref="J1" pin="10" pinfunction="10" pintype="passive"/>
+      <node ref="J5" pin="24" pinfunction="24" pintype="passive"/>
+    </net>
+    <net code="53" name="DIN14" class="Default">
+      <node ref="J1" pin="12" pinfunction="12" pintype="passive"/>
+      <node ref="J5" pin="22" pinfunction="22" pintype="passive"/>
+    </net>
+    <net code="54" name="DIN15" class="Default">
+      <node ref="J1" pin="14" pinfunction="14" pintype="passive"/>
+      <node ref="J5" pin="20" pinfunction="20" pintype="passive"/>
+    </net>
+    <net code="55" name="DIN16" class="Default">
+      <node ref="J1" pin="16" pinfunction="16" pintype="passive"/>
+      <node ref="J5" pin="18" pinfunction="18" pintype="passive"/>
+    </net>
+    <net code="56" name="DIN17" class="Default">
+      <node ref="J1" pin="18" pinfunction="18" pintype="passive"/>
+      <node ref="J5" pin="16" pinfunction="16" pintype="passive"/>
+    </net>
+    <net code="57" name="DIN18" class="Default">
+      <node ref="J1" pin="20" pinfunction="20" pintype="passive"/>
+      <node ref="J5" pin="14" pinfunction="14" pintype="passive"/>
+    </net>
+    <net code="58" name="DIN19" class="Default">
+      <node ref="J1" pin="22" pinfunction="22" pintype="passive"/>
+      <node ref="J5" pin="12" pinfunction="12" pintype="passive"/>
+    </net>
+    <net code="59" name="DIN20" class="Default">
+      <node ref="J1" pin="24" pinfunction="24" pintype="passive"/>
+      <node ref="J5" pin="10" pinfunction="10" pintype="passive"/>
+    </net>
+    <net code="60" name="DIN21" class="Default">
+      <node ref="J1" pin="26" pinfunction="26" pintype="passive"/>
+      <node ref="J5" pin="08" pinfunction="08" pintype="passive"/>
+    </net>
+    <net code="61" name="DIN22" class="Default">
+      <node ref="J1" pin="28" pinfunction="28" pintype="passive"/>
+      <node ref="J5" pin="06" pinfunction="06" pintype="passive"/>
+    </net>
+    <net code="62" name="DIN23" class="Default">
+      <node ref="J1" pin="30" pinfunction="30" pintype="passive"/>
+      <node ref="J5" pin="04" pinfunction="04" pintype="passive"/>
+    </net>
+    <net code="63" name="DIN24" class="Default">
+      <node ref="J1" pin="32" pinfunction="32" pintype="passive"/>
+      <node ref="J5" pin="02" pinfunction="02" pintype="passive"/>
+    </net>
+    <net code="64" name="DIN25" class="Default">
+      <node ref="J2" pin="31" pinfunction="31" pintype="passive"/>
+      <node ref="J6" pin="01" pinfunction="01" pintype="passive"/>
+    </net>
+    <net code="65" name="DIN26" class="Default">
+      <node ref="J2" pin="29" pinfunction="29" pintype="passive"/>
+      <node ref="J6" pin="03" pinfunction="03" pintype="passive"/>
+    </net>
+    <net code="66" name="DIN27" class="Default">
+      <node ref="J2" pin="27" pinfunction="27" pintype="passive"/>
+      <node ref="J6" pin="05" pinfunction="05" pintype="passive"/>
+    </net>
+    <net code="67" name="DIN28" class="Default">
+      <node ref="J2" pin="25" pinfunction="25" pintype="passive"/>
+      <node ref="J6" pin="07" pinfunction="07" pintype="passive"/>
+    </net>
+    <net code="68" name="DIN29" class="Default">
+      <node ref="J2" pin="23" pinfunction="23" pintype="passive"/>
+      <node ref="J6" pin="09" pinfunction="09" pintype="passive"/>
+    </net>
+    <net code="69" name="DIN30" class="Default">
+      <node ref="J2" pin="21" pinfunction="21" pintype="passive"/>
+      <node ref="J6" pin="11" pinfunction="11" pintype="passive"/>
+    </net>
+    <net code="70" name="DIN31" class="Default">
+      <node ref="J2" pin="19" pinfunction="19" pintype="passive"/>
+      <node ref="J6" pin="13" pinfunction="13" pintype="passive"/>
+    </net>
+    <net code="71" name="DIN32" class="Default">
+      <node ref="J2" pin="17" pinfunction="17" pintype="passive"/>
+      <node ref="J6" pin="15" pinfunction="15" pintype="passive"/>
+    </net>
+    <net code="72" name="DIN33" class="Default">
+      <node ref="J2" pin="15" pinfunction="15" pintype="passive"/>
+      <node ref="J6" pin="17" pinfunction="17" pintype="passive"/>
+    </net>
+    <net code="73" name="DIN34" class="Default">
+      <node ref="J2" pin="13" pinfunction="13" pintype="passive"/>
+      <node ref="J6" pin="19" pinfunction="19" pintype="passive"/>
+    </net>
+    <net code="74" name="DIN35" class="Default">
+      <node ref="J2" pin="11" pinfunction="11" pintype="passive"/>
+      <node ref="J6" pin="21" pinfunction="21" pintype="passive"/>
+    </net>
+    <net code="75" name="DIN36" class="Default">
+      <node ref="J2" pin="09" pinfunction="09" pintype="passive"/>
+      <node ref="J6" pin="23" pinfunction="23" pintype="passive"/>
+    </net>
+    <net code="76" name="DIN37" class="Default">
+      <node ref="J2" pin="10" pinfunction="10" pintype="passive"/>
+      <node ref="J6" pin="24" pinfunction="24" pintype="passive"/>
+    </net>
+    <net code="77" name="DIN38" class="Default">
+      <node ref="J2" pin="12" pinfunction="12" pintype="passive"/>
+      <node ref="J6" pin="22" pinfunction="22" pintype="passive"/>
+    </net>
+    <net code="78" name="DIN39" class="Default">
+      <node ref="J2" pin="14" pinfunction="14" pintype="passive"/>
+      <node ref="J6" pin="20" pinfunction="20" pintype="passive"/>
+    </net>
+    <net code="79" name="DIN40" class="Default">
+      <node ref="J2" pin="16" pinfunction="16" pintype="passive"/>
+      <node ref="J6" pin="18" pinfunction="18" pintype="passive"/>
+    </net>
+    <net code="80" name="DIN41" class="Default">
+      <node ref="J2" pin="18" pinfunction="18" pintype="passive"/>
+      <node ref="J6" pin="16" pinfunction="16" pintype="passive"/>
+    </net>
+    <net code="81" name="DIN42" class="Default">
+      <node ref="J2" pin="20" pinfunction="20" pintype="passive"/>
+      <node ref="J6" pin="14" pinfunction="14" pintype="passive"/>
+    </net>
+    <net code="82" name="DIN43" class="Default">
+      <node ref="J2" pin="22" pinfunction="22" pintype="passive"/>
+      <node ref="J6" pin="12" pinfunction="12" pintype="passive"/>
+    </net>
+    <net code="83" name="DIN44" class="Default">
+      <node ref="J2" pin="24" pinfunction="24" pintype="passive"/>
+      <node ref="J6" pin="10" pinfunction="10" pintype="passive"/>
+    </net>
+    <net code="84" name="DIN45" class="Default">
+      <node ref="J2" pin="26" pinfunction="26" pintype="passive"/>
+      <node ref="J6" pin="08" pinfunction="08" pintype="passive"/>
+    </net>
+    <net code="85" name="DIN46" class="Default">
+      <node ref="J2" pin="28" pinfunction="28" pintype="passive"/>
+      <node ref="J6" pin="06" pinfunction="06" pintype="passive"/>
+    </net>
+    <net code="86" name="DIN47" class="Default">
+      <node ref="J2" pin="30" pinfunction="30" pintype="passive"/>
+      <node ref="J6" pin="04" pinfunction="04" pintype="passive"/>
+    </net>
+    <net code="87" name="DIN48" class="Default">
+      <node ref="J2" pin="32" pinfunction="32" pintype="passive"/>
+      <node ref="J6" pin="02" pinfunction="02" pintype="passive"/>
+    </net>
+    <net code="88" name="GND" class="Default">
+      <node ref="J1" pin="01" pinfunction="01" pintype="passive"/>
+      <node ref="J1" pin="02" pinfunction="02" pintype="passive"/>
+      <node ref="J2" pin="01" pinfunction="01" pintype="passive"/>
+      <node ref="J2" pin="02" pinfunction="02" pintype="passive"/>
+      <node ref="S1" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="S1" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="SK1" pin="B14" pinfunction="GND" pintype="power_out"/>
+      <node ref="SK1" pin="B6" pinfunction="GND" pintype="power_out"/>
+      <node ref="SK1" pin="B7" pinfunction="GND" pintype="power_out"/>
+      <node ref="SK2" pin="B14" pinfunction="GND" pintype="power_out"/>
+      <node ref="SK2" pin="B6" pinfunction="GND" pintype="power_out"/>
+      <node ref="SK2" pin="B7" pinfunction="GND" pintype="power_out"/>
+    </net>
+    <net code="89" name="NCA4-OE1" class="Default">
+      <node ref="J4" pin="20" pinfunction="20" pintype="passive"/>
+      <node ref="SK1" pin="A4" pinfunction="NCA4" pintype="bidirectional"/>
+      <node ref="SK2" pin="A4" pinfunction="NCA4" pintype="bidirectional"/>
+    </net>
+    <net code="90" name="NCA28" class="Default">
+      <node ref="J4" pin="22" pinfunction="22" pintype="passive"/>
+      <node ref="SK1" pin="A28" pinfunction="NCA28" pintype="bidirectional"/>
+      <node ref="SK2" pin="A28" pinfunction="NCA28" pintype="bidirectional"/>
+    </net>
+    <net code="91" name="POWER5V" class="Default">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="05" pinfunction="05" pintype="passive"/>
+      <node ref="J1" pin="06" pinfunction="06" pintype="passive"/>
+      <node ref="J2" pin="05" pinfunction="05" pintype="passive"/>
+      <node ref="J2" pin="06" pinfunction="06" pintype="passive"/>
+    </net>
+    <net code="92" name="POWER5_VIN" class="Default">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SK1" pin="B3" pinfunction="+5v" pintype="power_out"/>
+      <node ref="SK2" pin="B3" pinfunction="+5v" pintype="power_out"/>
+    </net>
+    <net code="93" name="POWER_+9V" class="Default">
+      <node ref="SK1" pin="B4" pinfunction="+9V" pintype="power_out"/>
+      <node ref="SK2" pin="B4" pinfunction="+9V" pintype="power_out"/>
+    </net>
+    <net code="94" name="POWER_+12V" class="Default">
+      <node ref="SK1" pin="A22" pinfunction="+12V" pintype="power_out"/>
+      <node ref="SK2" pin="A22" pinfunction="+12V" pintype="power_out"/>
+    </net>
+    <net code="95" name="POWER_-5V" class="Default">
+      <node ref="SK1" pin="A20" pinfunction="-5V" pintype="power_out"/>
+      <node ref="SK2" pin="A20" pinfunction="-5V" pintype="power_out"/>
+    </net>
+    <net code="96" name="POWER_12VAC" class="Default">
+      <node ref="SK1" pin="A23" pinfunction="+12VAC" pintype="power_out"/>
+      <node ref="SK2" pin="A23" pinfunction="+12VAC" pintype="power_out"/>
+    </net>
+    <net code="97" name="RESET" class="Default">
+      <node ref="J4" pin="01" pinfunction="01" pintype="passive"/>
+      <node ref="S1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="S1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SK1" pin="B20" pinfunction="~{RESET}" pintype="passive"/>
+      <node ref="SK2" pin="B20" pinfunction="~{RESET}" pintype="passive"/>
+    </net>
+    <net code="98" name="U-/MTR" class="Default">
+      <node ref="J4" pin="19" pinfunction="19" pintype="passive"/>
+      <node ref="SK1" pin="B18" pinfunction="U" pintype="input"/>
+      <node ref="SK2" pin="B18" pinfunction="U" pintype="input"/>
+    </net>
+    <net code="99" name="V-/DWR" class="Default">
+      <node ref="J4" pin="18" pinfunction="18" pintype="passive"/>
+      <node ref="SK1" pin="B17" pinfunction="V" pintype="input"/>
+      <node ref="SK2" pin="B17" pinfunction="V" pintype="input"/>
+    </net>
+    <net code="100" name="VIDEO-OE2" class="Default">
+      <node ref="J4" pin="21" pinfunction="21" pintype="passive"/>
+      <node ref="SK1" pin="B15" pinfunction="VIDEO" pintype="input"/>
+      <node ref="SK2" pin="B15" pinfunction="VIDEO" pintype="input"/>
+    </net>
+    <net code="101" name="Y-/DRD" class="Default">
+      <node ref="J4" pin="17" pinfunction="17" pintype="passive"/>
+      <node ref="SK1" pin="B16" pinfunction="Y" pintype="input"/>
+      <node ref="SK2" pin="B16" pinfunction="Y" pintype="input"/>
+    </net>
+    <net code="102" name="unconnected-(J1-Pad03)" class="Default">
+      <node ref="J1" pin="03" pinfunction="03" pintype="passive+no_connect"/>
+    </net>
+    <net code="103" name="unconnected-(J1-Pad04)" class="Default">
+      <node ref="J1" pin="04" pinfunction="04" pintype="passive+no_connect"/>
+    </net>
+    <net code="104" name="unconnected-(J1-Pad07)" class="Default">
+      <node ref="J1" pin="07" pinfunction="07" pintype="passive+no_connect"/>
+    </net>
+    <net code="105" name="unconnected-(J1-Pad08)" class="Default">
+      <node ref="J1" pin="08" pinfunction="08" pintype="passive+no_connect"/>
+    </net>
+    <net code="106" name="unconnected-(J2-Pad03)" class="Default">
+      <node ref="J2" pin="03" pinfunction="03" pintype="passive+no_connect"/>
+    </net>
+    <net code="107" name="unconnected-(J2-Pad04)" class="Default">
+      <node ref="J2" pin="04" pinfunction="04" pintype="passive+no_connect"/>
+    </net>
+    <net code="108" name="unconnected-(J2-Pad07)" class="Default">
+      <node ref="J2" pin="07" pinfunction="07" pintype="passive+no_connect"/>
+    </net>
+    <net code="109" name="unconnected-(J2-Pad08)" class="Default">
+      <node ref="J2" pin="08" pinfunction="08" pintype="passive+no_connect"/>
+    </net>
+    <net code="110" name="unconnected-(J4-Pad23)" class="Default">
+      <node ref="J4" pin="23" pinfunction="23" pintype="passive+no_connect"/>
+    </net>
+    <net code="111" name="unconnected-(J4-Pad24)" class="Default">
+      <node ref="J4" pin="24" pinfunction="24" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>
